@@ -2,17 +2,19 @@ TARGET = qt-example
 CONFIG += c++17 
 QT += network
 
+INCLUDEPATH += ..
+
 SOURCES += \
-    behpardakhtpacket.cpp \
+    ../behpardakhtpacket.cpp \
+    ../sadadpacket.cpp \
     behpardakhtpos.cpp \
     main.cpp \
     pcposmanager.cpp \
-    sadadpacket.cpp \
     sadadpos.cpp
 
 HEADERS += \
-    behpardakhtpacket.h \
+    ../behpardakhtpacket.h \
+    ../sadadpacket.h \
     behpardakhtpos.h \
     pcposmanager.h \
-    sadadpacket.h \
     sadadpos.h
